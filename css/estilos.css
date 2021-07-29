@@ -1,8 +1,10 @@
+/**  Reseto CSS  **/
 * {
     margin: 0;
     padding: 0;
 }
 
+/**  Estilo textos  **/
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -40,6 +42,7 @@ h3 {
     color: rgb(22, 22, 110);
  }
 
+/**  Estilo artículos  **/ 
 section .card {
     background-color: #ECECEC;
     box-shadow: 5px 5px 5px grey;
@@ -50,10 +53,12 @@ section .card {
     font-weight: bold;
 }
 
+/**  Estilo Icons   **/
 .bi-house-door, .bi-geo-alt {
     color: goldenrod;
 }
 
+/** Estilo botones **/
 .btn {
     background-color: orange;
     color: white;
@@ -74,10 +79,8 @@ section .card {
     margin-top: 65px;
 }
 
+/**  Estilo segunda sección  **/
 .segunda-seccion {
     margin-top: 50px;
     background-color: #ECECEC;
 }
-    
-
-/**  MEDIA QUERYS  **/
